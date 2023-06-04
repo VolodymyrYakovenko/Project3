@@ -31,4 +31,9 @@
         text-align: center;
         color: #0D0D0D;
     }
+    &__icon {
+        &_animate {
+            animation: heartbeat 2s ease infinite;
+        }
+    }
 }
